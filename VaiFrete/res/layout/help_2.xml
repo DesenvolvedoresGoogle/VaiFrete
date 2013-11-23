@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/mobile3"
+>    
+      <LinearLayout
+          android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+        android:orientation="vertical" >
+ 		
+ 		<TextView
+              android:id="@+id/title_help_step3_top"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+			  android:layout_gravity="center_horizontal"              
+			  android:text="Seja Recomendado !"
+              android:textSize="20sp"
+              android:textColor="@color/black"             
+              android:textStyle="bold"
+              android:alpha="0.4"
+              android:layout_marginTop="20dp"
+              
+               />
+
+
+          <TextView
+              android:id="@+id/title_help_step2_top"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+			  android:layout_gravity="center_horizontal" 
+			  android:text="Encontre mais entregas/fretes!"
+              android:textSize="20sp"
+                android:alpha="0.4"
+              android:textColor="@color/black"             
+              android:textStyle="bold"
+              
+               />
+			
+          
+   
+            <TextView
+              android:id="@+id/title_help_step3_top"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+			  android:layout_gravity="center_horizontal"              
+			  android:text="Ganhe Confiança de seus clientes!"
+              android:textSize="20sp"
+                android:alpha="0.4"
+              android:textColor="@color/black"             
+              android:textStyle="bold"
+              
+               />
+          
+    </LinearLayout>
+    
+
+  
+    
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+   
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:orientation="vertical" >
+            
+            
+       <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp" />
+ 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF" 
+        android:text="Frete"
+        android:layout_toRightOf="@+id/image"/>
+
+     
+     <ProgressBar
+         android:id="@+id/progressBar1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/editText1"
+         android:layout_marginLeft="46dp"
+         android:visibility="gone"
+         android:layout_marginTop="26dp"
+         android:layout_toRightOf="@+id/dialogButtonOK" />
+ 
+        <TextView
+        android:id="@+id/textAguarde"
+ 		android:layout_margin="-80dp" 
+ 		android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black" 
+        android:text="Aguarde sua oferta ser confirmada!"
+        android:layout_toRightOf="@+id/image"
+        />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite um preco médio" />
+
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="128dp"
+            android:text=" Pegar Frete " />
+            
+        </LinearLayout>
+     
+</RelativeLayout>

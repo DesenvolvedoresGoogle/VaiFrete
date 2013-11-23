@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VaiFrete</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_list_frete">ListFreteActivity</string>
+    <string name="title_activity_detail_frete">DetailFreteActivity</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="salvarperfil">SALVAR PERFIL</string>
+    <string name="doc">Documento Número</string>
+    <string name="city">Cidade</string>
+    <string name="sobre">Sobre</string>
+    <string name="image">Image Photo</string>
+    <string name="title_activity_como_estou">ComoEstouActivity</string>
+
+</resources>

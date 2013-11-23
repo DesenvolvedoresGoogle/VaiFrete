@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!--				GENERAL COLORS					-->
+    <color name="action_bar_bg">#E9605A</color>
+    <color name="transparent">#aa000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_yellow">#FF9F00</color><!-- f26532 --><!-- #FCB744  -->
+    <color name="list_unselected_color">#666666</color>
+    <color name="list_selected_color">#333333</color>
+    <color name="list_default_setting_color">#FF9F00</color>
+    <color name="title_red_color">#F06765</color>
+    <color name="translucent_black">#60000000</color>
+    <color name="translucent_black_alphamax">#20000000</color>
+    <color name="item_selected_color">#FCE3D5</color>
+    <color name="item_normal_dialog_color">#FDF4EF</color>
+    <color name="normal_item_background">#FDF2EC</color>
+    <color name="pressed_red">#80DD5855</color>
+    <color name="pressed_really_red">#F8632B</color><!-- #DD5855 -->
+    <color name="unpressed_red">#50DD5855</color>
+    <color name="blue_selected">#80CEEB</color>
+    <color name="black_events_caroussel">#353535</color>
+    
+    <color name="background_home">#FFF3EC</color>
+    <color name="tab_selected_color">#F26531 </color><!-- #F15855 -->
+    
+    <color name="list_initial_color_background">#FCF4F0</color>
+    <color name="list_final_color_background">#FBEFE9</color>
+    <color name="lista_idle_color">#FCDDCC</color>
+    <color name="gray_opaque">#CCCCCC</color>
+    <color name="gray_clean">#D3D3D3</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FBAF34</color>
+    <color name="clean_black">#473F39</color>
+    <color name="headers_color">#FCEED5</color> <!-- FBD3BC -->
+     <color name="purple_light">#a276eb</color> 
+    <color name="purple_middle">#8658ce</color>
+    <color name="purple_dark">#6a3ab2</color>
+    <color name="background_menu_drawer">#2D2926</color>
+    <color name="background_item_drawer">#473F3A</color>
+    <color name="background_font_menu">#DCC2B1</color>
+    <color name="background_font_subtitle">#B2A698</color>
+    <color name="background_list_estab_pressed">#FEF5F0</color>
+    <color name="background_list_estab">#FCE3D5</color>
+    
+</resources>
